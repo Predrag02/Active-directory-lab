@@ -36,15 +36,14 @@ This project demonstrates the integration of different technologies to create a 
 
 ## Steps
 Based on the diagram below, we create a network with an Ubuntu server hosting Splunk, a Windows Server 2022 machine serving as Active Directory, a Windows 10 client, and Kali Linux for attack simulation.
- 
-
-
-<img width="664" height="655" alt="s11" src="https://github.com/user-attachments/assets/c53e9200-9266-4d5c-a025-39ff09ff5685" />
-
-
-
+ <img width="664" height="655" alt="s11" src="https://github.com/user-attachments/assets/c53e9200-9266-4d5c-a025-39ff09ff5685" />
 We installed 4 virtual machines in VirtualBox: Windows Server 2022 with Active Directory, Windows 10, Ubuntu server with Splunk, and Kali Linux for attacks.
- 
+ <img width="342" height="548" alt="s12" src="https://github.com/user-attachments/assets/b183ec11-da1f-4413-8a13-f46701ef6024" />
+In VirtualBox, under Tools → NAT Networks, we click on "Create" to set up a network for our virtual machines.
+<img width="961" height="548" alt="s1" src="https://github.com/user-attachments/assets/7f8bb885-394a-4453-b731-ddd471c71e9e" />
+After creating the network, we configure the network name and IPv4 scope in the general options.
+<img width="341" height="220" alt="s2" src="https://github.com/user-attachments/assets/c5c58863-2ee0-4abd-82e4-fd0b4a3691df" />
+Once finished, we should see the changes under the NAT networks tab as shown in the picture.
+<img width="1218" height="140" alt="s3" src="https://github.com/user-attachments/assets/9a5925fd-1b9d-4894-9731-cc8fecddf3f3" />
 
 
-*Ref 1: Network Diagram*
